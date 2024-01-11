@@ -1,0 +1,150 @@
+/*reset base styles*/
+.page-container > .column-left,
+.page-container > .column-right {
+    display: none;
+    visibility: hidden;
+}
+.page-container > .column-center {
+    float: none;
+    width: auto;
+    margin-left: 0;
+}
+.page-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.feedack-left {
+    width: 460px;
+    float: left;
+}
+.feedack-right {
+    width: 380px;
+    float: right;
+}
+
+.page-title {
+    margin-bottom: 18px;
+}
+
+.feedback-descr {
+    font-size: 13px;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+.feedack-form {
+    display: block;
+    background-color: #f1efe8;
+    border: 1px solid #e0e0e0;
+    padding: 20px 33px 24px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.feedack-form h2 {
+    font-size: 20px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #010101;
+    font-weight: normal;
+}
+.feedack-form .caption {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.feedack-form table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: none;
+    width: 100%;
+    table-layout: fixed;
+}
+.feedack-form table td {
+    padding: 7px 0 8px;
+}
+.feedack-form input[type="text"],
+.feedack-form textarea {
+    width: 100%;
+    padding-left: 11px;
+    padding-right: 11px;
+    color: #686868;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: #FFFFFF;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.feedack-form input[type="text"] {
+    height: 37px;
+}
+.feedack-form textarea {
+    height: 86px;
+    resize: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.feedack-form input[type="text"]::-webkit-input-placeholder {
+    color: #686868;
+}
+.feedack-form input[type="text"]::-moz-placeholder {
+    color: #686868;
+}
+.feedack-form input[type="text"]:-moz-placeholder {
+    color: #686868;
+}
+.feedack-form input[type="text"]:-ms-input-placeholder {
+    color: #686868;
+}
+.feedack-form textarea::-webkit-input-placeholder {
+    color: #686868;
+}
+.feedack-form textarea::-moz-placeholder {
+    color: #686868;
+}
+.feedack-form textarea:-moz-placeholder {
+    color: #686868;
+}
+.feedack-form textarea:-ms-input-placeholder {
+    color: #686868;
+}
+.feedack-form input[type="text"].error,
+.feedack-form textarea.error {
+    border-width: 2px;
+    border-color: #ff7070;
+}
+.feedack-form .buttons td {
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+.feedack-form button {
+    border: none;
+    height: 40px;
+    padding: 0;
+    background-color: transparent;
+    font-size: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.feedack-form button[type="submit"] {
+    width: 143px;
+    background-image: url('../images/submit-btn.png');
+    color: #FFFFFF;
+}
+.feedack-form button[type="reset"] {
+    color: #2e7ebf;
+}
+.feedack-form button[type="reset"]:hover {
+    text-decoration: underline;
+}
+.feedack-form button:focus {
+    outline: none;
+}

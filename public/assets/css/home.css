@@ -1,0 +1,87 @@
+body {
+    background: #efefef none;
+    padding-top: 0;
+}
+.header-container {
+    width: 948px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #efefef;
+}
+.header-container .logo {
+    top: 13px;
+    left: 73px;
+}
+.header-container .lang {
+    top: 53px;
+    left: 19px;
+} 
+.header-container .nav {
+    top: 65px;
+}
+.header-container .toolbar {
+    right: 32px;
+    bottom: 23px;
+}
+
+.image-container {
+    height: 384px;
+    background-position: center;
+}
+
+.footer-container {
+    background: transparent none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-container .container {
+    width: 948px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-container .left {
+    margin-left: 0;
+    width: 310px;
+}
+.footer-container .center {
+    width: 310px;
+    margin-left: 25px;
+}
+.footer-container .right {
+    width: 280px;
+}
+
+.main-container {
+    height: 337px;
+    overflow: hidden;
+    background: transparent url("/images/site/smart/home-bg.jpg") center scroll no-repeat;
+}
+.main-container .container {
+    width: 948px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 28px;
+}
+.main-container .aya {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main-container .promo {
+    width: 281px;
+    float: left;
+    margin-left: 52px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #363636;
+    font-family: 'Franklin Gothic Book', Arial, sans-serif;
+    font-weight: 400;
+}
+.main-container .promo.first {
+    margin-left: 0;
+}
+.main-container .promo .image {
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
